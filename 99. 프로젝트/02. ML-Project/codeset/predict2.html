@@ -361,6 +361,7 @@
             method: 'POST',
             success: function(data) {
                 console.log(data);
+                let result = data.predictValue > 1 ? 1 : data.predictValue;
                 $("#baseResult").html(`<div class="alert alert-success">예측 결과: ${data.predictValue}</div>`);
             },
             error: function(error) {
