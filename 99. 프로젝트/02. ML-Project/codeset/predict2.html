@@ -108,7 +108,7 @@
 <body>
 
 <!-- Intro Section -->
-<section class="intro-section text-center">
+<!-- <section class="intro-section text-center">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -117,7 +117,30 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
+<section class="intro-section text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="display-6">기업 성공확률 분석 페이지</h1>
+          <p class="lead">
+            <!-- <a href="https://github.com/seohyunee22/AI-Project" style="color: #ff64a1;">github.com/seohyunee22</a> -->
+          </p>
+          <p style="font-size: 1rem; color: #888; max-width: 700px; margin: 0 auto;">
+            이 페이지는 머신러닝 기반 예측 모델을 활용하여 스타트업의 성공 가능성을 분석합니다.  
+            <br>
+            <br>
+            창업 연도, 산업 분야, 투자 단계, 매출 등 다양한 정보를 입력하면  
+            <br>
+            해당 기업의 성공 확률을 빠르고 직관적으로 확인할 수 있어요!
+          </p>
+          <p style="font-size: 0.95rem; color: #aaa; max-width: 700px; margin: 10px auto 0;">
+            데이터는 연구 목적을 위한 예시이며, 실제 투자나 판단에는 참고용으로만 활용해주세요 💡
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 
 <!-- 탭 메뉴 추가 -->
 <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -136,12 +159,21 @@
             <div class="row justify-content-center">
                 <div class="col-md-6">
                     <h1 class="mb-3 text-center" style="font-size: 30px;">예측 페이지</h1>
-                    <div id="imageContainer">
+                    <div id="imageContainer" style="background-color: #fff0f5; border-radius: 20px; padding: 20px; box-shadow: 0 4px 10px rgba(255, 105, 180, 0.2); text-align: center; margin-bottom: 20px;">
+                        <label style="font-size: 1.1rem; color: #e75480; font-weight: 600;">
+                          ✨ 기업 정보를 입력하면 AI가 성공 확률을 예측해드립니다! ✨
+                        </label>
+                        <br><br>
+                        <!-- 향후 이미지 사용 시 주석 해제 -->
+                        <!-- <img src="/images/success_logo.png" alt="slab_predict.png" class="img-fluid" style="max-width: 300px; margin-top: 10px;"> -->
+                      </div>
+                      
+                    <!-- <div id="imageContainer">
                         <label> { Features } 값 입력 시 { Label (성공확률) }값을 예측합니다.</label>
                         <br></br>
 
-                        <!-- <img src="/images/success_logo.png" alt="slab_predict.png" class="img-fluid"> -->
-                    </div>
+                        <img src="/images/success_logo.png" alt="slab_predict.png" class="img-fluid">
+                    </div> -->
                     <form>
                         <div class="form-group">
                             <label for="foundedYear">설립연연도</label>
