@@ -362,7 +362,7 @@
             success: function(data) {
                 console.log(data);
                 let result = data.predictValue > 1 ? 1 : data.predictValue;
-                $("#baseResult").html(`<div class="alert alert-success">예측 결과: ${data.predictValue}</div>`);
+                $("#baseResult").html(`<div class="alert alert-success">예측 결과: ${result}</div>`);
             },
             error: function(error) {
                 console.error(error);
